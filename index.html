@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- boostrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- navbar  -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="rounded" src="./images/logo.png" alt="" width="100px" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#cow">Cow</a>
+            <a class="nav-link" href="#goat">Goat</a>
+            <a class="nav-link" href="#sheep">Sheep</a>
+            <a class="nav-link" href="#masala">Masala </a>
+            <a class="nav-link" href="#subscribe">Subscribe </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- banner  -->
+    <section class="container mt-5 p-4 my-bg-color rounded-3">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row align-items-center">
+              <div class="col-md-7 text-light">
+                <h1>Deshi Body Builder Cow</h1>
+                <p>
+                  Original deshi breed and body buileder species. This one grew
+                  up in our farm with too much care and love. He is so sweet.
+                </p>
+                <h2>&#2547;1,20,000</h2>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/banner/banner-1-bull.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7 text-light">
+                <h1>Leonel Messi Goat</h1>
+                <p>
+                  Original deshi breed and species. This one grew up in our farm
+                  with too much care and love. He is so sweet. He dribles like
+                  Messi. So we call him Messi.
+                </p>
+                <h2>&#2547;20,000</h2>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/banner/banner-2-goat.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7 text-light">
+                <h1>Neymar Sheep</h1>
+                <p>
+                  Original deshi breed and species. This one grew up in our farm
+                  with too much care and love. He is so sweet. He is noughty
+                  like Neymar. So we call him Neymar.
+                </p>
+                <h2>&#2547;18,000</h2>
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/banner/banner-3-sheep.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">
+              <div class="col-md-7 text-light">
+                <h1>Garam Masala</h1>
+                <p>
+                  In korbani You also need Masala to make your cook delecious.
+                  So we come up with a idea to sell Masala also in our site.
+                  Sometimes we give it free.
+                </p>
+                <h2>&#2547;980</h2>
+                <button class="buy-now-button fw-bold">Buy Now</button>
+              </div>
+              <div class="col-md-5">
+                <img
+                  src="./images/banner/banner-4-masala.png"
+                  class="d-block w-100"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+    <!-- Catagories  -->
+    <section class="container my-bg-color">
+      <div class="row g-4 py-4 px-2">
+        <div class="col-lg-3 col-md-6">
+          <a class="link-dark text-decoration-none" href="#cow">
+            <div
+              class="
+                px-3
+                py-1
+                rounded-3
+                bg-light
+                d-flex
+                justify-content-between
+                align-items-center
+              "
+            >
+              <h1>Cow</h1>
+              <img
+                width="100px"
+                class="img-fluid"
+                src="./images/category-1-bull.png"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a class="link-dark text-decoration-none" href="#goat">
+            <div
+              class="
+                px-3
+                py-1
+                rounded-3
+                bg-light
+                d-flex
+                justify-content-between
+                align-items-center
+              "
+            >
+              <h1>Goat</h1>
+              <img
+                width="100px"
+                class="img-fluid"
+                src="./images/category-2-goat.png"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a class="link-dark text-decoration-none" href="#sheep">
+            <div
+              class="
+                px-3
+                py-1
+                rounded-3
+                bg-light
+                d-flex
+                justify-content-between
+                align-items-center
+              "
+            >
+              <h1>Sheep</h1>
+              <img
+                width="100px"
+                class="img-fluid"
+                src="./images/category-3-sheep.png"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <a class="link-dark text-decoration-none" href="#masala">
+            <div
+              class="
+                px-3
+                py-1
+                rounded-3
+                bg-light
+                d-flex
+                justify-content-between
+                align-items-center
+              "
+            >
+              <h1>Masala</h1>
+              <img
+                width="100px"
+                height="100px"
+                src="./images/category-4-masala.png"
+                alt=""
+              />
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- cow card section  -->
+    <section class="my-5" id="cow">
+      <div class="container">
+        <h1>Gorur Bazaar</h1>
+        <hr />
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/gorus/bull-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Deshi Goru</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h2>&#2547;1,11,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/gorus/bull-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Indian Goru</h2>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <h2>&#2547;95,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/gorus/bull-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Pakistani Goru</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>&#2547;92,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- goat card section  -->
+    <section class="my-5" id="goat">
+      <div class="container">
+        <h1>Khashir Bazaar</h1>
+        <hr />
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/khashi/goat-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Deshi Khashi</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h2>&#2547;19,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/khashi/goat-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Indian Khashi</h2>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <h2>&#2547;18,999</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/khashi/goat-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Pakistani Khashi</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>&#2547;17,500</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- Sheep card and section  -->
+    <section class="my-5" id="sheep">
+      <div class="container">
+        <h1>Bherar Bazaar</h1>
+        <hr />
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/khashi/sheep-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Deshi Bhera</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h2>&#2547;20,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/khashi/sheep-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Australian Bhera</h2>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <h2>&#2547;22,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/khashi/sheep-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Digital Bhera</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>&#2547;17,000</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- masala card and section  -->
+    <section class="my-5" id="masala">
+      <div class="container">
+        <h1>Gorom Masala</h1>
+        <hr />
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/mashala/masala-1.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Onion</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <h2>10kg - &#2547;600</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/mashala/masala-2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Garlic</h2>
+                <p class="card-text">
+                  This card has supporting text below as a natural lead-in to
+                  additional content.
+                </p>
+                <h2>10kg - &#2547;900</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 my-bg-color">
+              <img
+                src="./images/mashala/masala-3.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-light">
+                <h2 class="card-title">Ginger</h2>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content.
+                </p>
+                <h2>2kg - &#2547;360</h2>
+              </div>
+              <div class="card-footer">
+                <button class="buy-now-button mb-3">Buy Now >></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </section>
+    <!-- boostrap js  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

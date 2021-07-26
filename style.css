@@ -1,0 +1,23 @@
+.my-bg-color {
+  background-color: rgb(32, 29, 29);
+}
+
+.buy-now-button {
+  background-image: linear-gradient(to bottom, #999798 0%, #e3eceb 100%);
+  color: #000;
+  border: none;
+  border-radius: 8px;
+  padding: 9px 25px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 8px 4px 15px rgb(150 147 147);
+}
+.card-footer {
+  /* background-color: white; */
+  border-top: none;
+}
